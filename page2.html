@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="page2.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg   fixed-top" id="header">
+ 
+  <img src="bdlogo.PNG" id="logo" width="100px" height="100px">
+      <center><h1 id="head1">Blood Donator Management System</h1></center>
+	  <div id="logoutpt">
+	 <a href="index.html"> <button id="logout">Logout</button></a>
+	  </div>
+    
+    </nav>
+<div class="container-fluid">
+	<br><br><br><br><br>
+    <div class="row">
+		
+		<div class="col-lg-8" id="pt2">
+		<br><br><br>
+			<div id="selectop">
+				<h3>Select the city :</h3>
+				<select id="myselect">
+				<option value=""></option>
+					<option value="bangalore">Bangalore</option>
+					<option value="Tumkur">Tumkur</option>
+					<option value="Hassan">Hassan</option>
+					<option value="Mysore">Mysore</option>
+					<option value="Mandya">Mandya</option>
+				
+				</select>
+				
+				<button value="check" id="chkbtn" onclick="listdisplay()">Check</button>
+				<br>
+				
+			</div>
+			<br><br>
+			<div id="contentlist" style="visibility:hidden">
+				<table style="width:100%" id="list">
+					<tr>
+						<th>Name</th>
+						<th >Email</th>
+						<th >City</th>
+						<th >Phone</th>
+						<th >Blood-Group</th>
+						
+					</tr>
+					<tr>
+						<td>darshan</td>
+						<td>rockdarshan@gmail.com</td>
+						<td>Bangalore</td>
+						<td>9448748995</td>
+						<td>A+</td>
+						
+					</tr>
+				</table>
+				
+			</div>
+			<div id="contentlist1"  style="visibility:hidden">
+				<table style="width:100%" id="list1">
+					<tr>
+						<th>Name</th>
+						<th >Email</th>
+						<th >City</th>
+						<th >Phone</th>
+						<th >Blood-Group</th>
+						
+					</tr>
+					<tr>
+						<td>punith ms</td>
+						<td>mspunith2@gmail.com</td>
+						<td>Tumkur</td>
+						<td>9663426992</td>
+						<td>AB-</td>
+						
+					</tr>
+				</table>
+			</div>
+			<div id="contentlist2"  style="visibility:hidden">
+				<table style="width:100%" id="list2">
+					<tr>
+						<th>Name</th>
+						<th >Email</th>
+						<th >City</th>
+						<th >Phone</th>
+						<th >Blood-Group</th>
+						
+					</tr>
+					<tr>
+						<td>Sunitha ms</td>
+						<td>sunitha@gmail.com</td>
+						<td>Hassan</td>
+						<td>9663322669</td>
+						<td>AB+</td>
+						
+					</tr>
+				</table>
+			</div>
+			
+			<div id="contentlist3"  style="visibility:hidden">
+				<table style="width:100%" id="list3">
+					<tr>
+						<th>Name</th>
+						<th >Email</th>
+						<th >City</th>
+						<th >Phone</th>
+						<th >Blood-Group</th>
+						
+					</tr>
+					<tr>
+						<td>Sridhar</td>
+						<td>Sridhar@gmail.com</td>
+						<td>Mysore</td>
+						<td>9880609275</td>
+						<td>A+</td>
+						
+					</tr>
+				</table>
+			</div>
+			
+			<div id="contentlist4"  style="visibility:hidden">
+				<table style="width:100%" id="list4">
+					<tr>
+						<th>Name</th>
+						<th >Email</th>
+						<th >City</th>
+						<th >Phone</th>
+						<th >Blood-Group</th>
+						
+					</tr>
+					<tr>
+						<td>saroja v</td>
+						<td>saru@gmail.com</td>
+						<td>mandya</td>
+						<td>9739680067</td>
+						<td>A-</td>
+						
+					</tr>
+				</table>
+			</div>
+			
+			
+		</div>
+		<div class="col-lg-2" id="pt3">
+		<img src="blood.JPG" style="width:490px;height:550px">
+		</div>
+		
+	</div>
+
+
+<div class="footer">
+	<div class="text-center p-3" style="background-color: red;">
+    © 2020 Copyright:
+    <a href="https://blooddonate.com/">Blood.com</a>
+  </div>
+  </div>
+
+
+
+</div>
+<script src="page2.js"></script>
+</body>
+</html>

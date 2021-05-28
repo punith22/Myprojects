@@ -1,0 +1,68 @@
+/*input[type="text"],input[type="email"],input[type="address"],input[type="number"]{
+	width:100%;
+
+}*/
+.container-fluid{
+	background-color:white;
+	
+	
+}
+
+.formcontainer{
+	height:400px;
+	background-color:#fe2712;
+	
+}
+#col2{
+	height:590px;
+	
+	
+	width:500px;
+	
+	transform:translate(-50px,50px);
+}
+#donateimg{
+	width:90%;
+	height:500px;
+	transform:translate(0px,50px);
+}
+
+#header1{
+	background-color:red;
+	height:100px;
+	
+}
+#head1{
+	color:white;
+}
+#logbtn{
+	width:100%;
+	background-color: #8ebf42;
+      color: white;
+      padding: 14px 0;
+      margin: 10px 0;
+      border: none;
+      cursor: grabbing;
+      width: 100%;
+	
+}
+ #form1 {
+      border: 5px solid #f1f1f1;
+	 background-color:#fe2712;
+	 color:white;
+      }
+      input[type=text], input[type=password] ,input[type="email"],input[type="address"],input[type="number"],select{
+      width: 100%;
+      padding: 16px 8px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      }
+img{
+	transform: translate(0px, -50px);
+
+ }	
+#head1{
+	transform: translate(0px, 50px);
+}	
